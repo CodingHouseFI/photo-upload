@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel='stylesheet' href='/css/style.css' />
+  </head>
+  <body ng-app='APP_NAME'>
+    <ng-include src="'html/general/nav.html'"></ng-include>
+    <div class="container">
+      <ui-view></ui-view>
+    </div>
+
+    <script src="/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="/vendor/angular/angular.min.js"></script>
+    <script src="/vendor/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="/vendor/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="/vendor/lodash/lodash.min.js"></script>
+
+    <script src="/js/all.js"></script>
+  </body>
+</html>

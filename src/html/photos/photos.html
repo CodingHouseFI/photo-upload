@@ -1,0 +1,10 @@
+<h1>Photos</h1>
+<button class="btn btn-default btn-sm" ui-sref='upload'>Upload</button>
+
+<div class="row">
+  <div class="col-xs-6 col-md-3" ng-repeat='photo in photos track by $index'>
+    <a href="#" class="thumbnail">
+      <img ng-src="{{photo.url}}">
+    </a>
+  </div>
+</div>

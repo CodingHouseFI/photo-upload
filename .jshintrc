@@ -1,0 +1,6 @@
+{
+  "undef": true,
+  "unused": false,
+  "globalstrict": true,
+  "predef": [ "angular", "console"]
+}
